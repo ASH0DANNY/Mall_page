@@ -3,7 +3,7 @@ import ChevronRightRoundedIcon from "@mui/icons-material/ChevronRightRounded";
 import DevicesRoundedIcon from "@mui/icons-material/DevicesRounded";
 import EdgesensorHighRoundedIcon from "@mui/icons-material/EdgesensorHighRounded";
 import ViewQuiltRoundedIcon from "@mui/icons-material/ViewQuiltRounded";
-import { Box, Card, Container, Grid, Link, Stack, Typography } from "@mui/material";
+import { Box, Button, Card, Chip, Container, Grid, Link, Stack, Typography } from "@mui/material";
 
 const items = [
   {

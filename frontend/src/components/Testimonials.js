@@ -1,6 +1,6 @@
 import * as React from "react";
 import { useTheme } from "@mui/system";
-import { Avatar, Box, Container, Grid, Typography } from "@mui/material";
+import { Avatar, Box, Card, CardContent, CardHeader, Container, Grid, Typography } from "@mui/material";
 
 const userTestimonials = [
   {
