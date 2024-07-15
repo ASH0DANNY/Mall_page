@@ -120,7 +120,7 @@ function AppAppBar({ mode, toggleColorMode }) {
                   sx={{ py: "6px", px: "12px" }}
                 >
                   <Typography variant="body2" color="text.primary">
-                    Pricing
+                    Events
                   </Typography>
                 </MenuItem>
                 <MenuItem
@@ -150,16 +150,6 @@ function AppAppBar({ mode, toggleColorMode }) {
                 target="_blank"
               >
                 Sign in
-              </Button>
-              <Button
-                color="primary"
-                variant="contained"
-                size="small"
-                component="a"
-                href="/material-ui/getting-started/templates/sign-up/"
-                target="_blank"
-              >
-                Sign up
               </Button>
             </Box>
             <Box sx={{ display: { sm: "", md: "none" } }}>
@@ -204,7 +194,7 @@ function AppAppBar({ mode, toggleColorMode }) {
                     Highlights
                   </MenuItem>
                   <MenuItem onClick={() => scrollToSection("pricing")}>
-                    Pricing
+                    Events
                   </MenuItem>
                   <MenuItem onClick={() => scrollToSection("faq")}>
                     FAQ
